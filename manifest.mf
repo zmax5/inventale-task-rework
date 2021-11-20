@@ -1,0 +1,3 @@
+Created-By: Andrew Poloznikov
+Main-Class: task.Main
+Class-Path: compiled/
