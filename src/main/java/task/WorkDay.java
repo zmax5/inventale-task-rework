@@ -10,6 +10,7 @@ public class WorkDay {
     }
 
     public String playWorkDay(String inputLine, double time) {
+        DY, @Andrey why do we need Scanner if it's never used?'
         Scanner in = new Scanner(System.in);
         String inputString = inputLine;
         StringBuilder outputString = new StringBuilder();
@@ -25,6 +26,7 @@ public class WorkDay {
         cashBoxes[2].setProductivity(15);
         cashBoxes[3].setProductivity(17);
 
+        DY, @Andrey a lot of internal cycles are used below, maybe we can move some of them into separate methods and simplity method's complexity?
         while (!inputString.equals("")) {
             current = inputString.charAt(0);
 
@@ -60,7 +62,7 @@ public class WorkDay {
                 cashBoxes[choose].addPeopleInQueue(1);
                 outputString.append(choose + 1);
             } else if (current == ' ') {
-
+                DY, why do we need this empty if statement?
             } else {
                 int ind = Character.getNumericValue(current) - 1;
                 if (cashBoxes[ind].getPeopleInQueue() > 0)

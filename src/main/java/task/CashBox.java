@@ -1,6 +1,7 @@
 package task;
 
 public class CashBox {
+    DY, @Andrey why do we need to set default values = 0 to primitive fields?
     private int peopleInQueue = 0;
     private double productivity = 0;
     private double storedTime = 0;
