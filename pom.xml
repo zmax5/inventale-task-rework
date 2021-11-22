@@ -11,7 +11,10 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            DY Andrey, why do you use junit v 4.x if there is already junit 5.x?
+            <!--
+                DY Andrey, why do you use junit v 4.x if there is already junit 5.x?
+                Response I just like number 4 ^_^ (There is no particular reason)
+            -->
             <version>4.13</version>
             <scope>test</scope>
         </dependency>
